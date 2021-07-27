@@ -38,7 +38,7 @@ function App() {
   };
   return (
     <div className='main-div'>
-      <Header />
+    {/* <Header />*/}
       {filters.length > 0 && (
         <Filters
           filters={filters}
