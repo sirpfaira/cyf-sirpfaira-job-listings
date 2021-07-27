@@ -1,0 +1,213 @@
+:root {
+  --desaturated-dark-cyan: hsl(180, 29%, 50%);
+  --light-greyish-cyan: hsl(180, 52%, 96%);
+  --lighter-greyish-cyan: hsl(180, 31%, 95%);
+  --dark-greyish-cyan: hsl(180, 8%, 52%);
+  --darker-greyish-cyan: hsl(180, 14%, 20%);
+  --lightest-text: white;
+}
+
+.sub-heading {
+  font-weight: 500;
+  color: var(--desaturated-dark-cyan);
+  font-size: 18px;
+}
+.body-text {
+  font-size: 15px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.light-text {
+  color: var(--lightest-text);
+}
+
+.grey-color-text {
+  color: grey;
+}
+.cyan-bg {
+  background-color: var(--desaturated-dark-cyan);
+  color: var(--lightest-text);
+}
+
+.light-cyan-bg {
+  background-color: var(--light-greyish-cyan);
+}
+
+.dark-bg {
+  background-color: black;
+  color: var(--lightest-text);
+}
+
+.round-borders {
+  border-radius: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.15rem;
+  font-size: 13px;
+}
+
+.sharp-borders {
+  border-radius: 0.3rem;
+}
+.borderless-button {
+  border: 0;
+  background-color: transparent;
+}
+
+/*MAIN DIV MAIN DIV MAIN DIV MAIN DIV*/
+.main-div {
+  background-color: var(--lighter-greyish-cyan);
+  padding-bottom: 4rem;
+}
+.header-div {
+  margin-bottom: 3rem;
+}
+
+.main-filter-div {
+  background-color: var(--lightest-text);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  padding-bottom: 1rem;
+}
+.filters-div {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* SINGLE FILTER ITEM*/
+.filter-container {
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+  padding-top: 0;
+  height: 2rem;
+  width: max-content;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+/*
+<button className='delete-icon borderless-button'>X</button>
+.delete-icon {
+  background-color: var(--desaturated-dark-cyan);
+  color: var(--lightest-text);
+  margin-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  height: 2rem;
+  border-radius: 0 0.3rem 0.3rem 0;
+}*/
+
+.del-icon {
+  background-color: var(--desaturated-dark-cyan);
+  color: var(--lightest-text);
+  margin-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+  height: 1.9rem;
+  padding-top: 0.1rem;
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.filter-name {
+  background-color: var(--light-greyish-cyan);
+}
+
+.clear-text {
+  text-decoration: underline;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  height: 2.5rem;
+}
+
+/*JOB CARD JOB CARD CARD JOB CARD JOB CARD */
+.job-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  background-color: var(--lightest-text);
+  margin-left: 7rem;
+  margin-right: 7rem;
+  align-items: center;
+}
+
+.company-icon-div {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.company-icon {
+  height: 5rem;
+  width: auto;
+}
+
+.details-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+}
+/*TOP DIV TOP DIV TOP DIV TOP DIV TOP DIV*/
+.top-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  height: max-content;
+}
+
+.new-tag {
+  margin-right: 0.6rem;
+  margin-left: 1rem;
+}
+
+/*MID DIV MID DIV MID DIV MID DIV MID DIV MID DIV*/
+.middle-div {
+  height: max-content;
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+/*BOTTOM DIV BOTTOM DIV BOTTOM DIV BOTTOM DIV */
+.bottom-div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.bottom-tag {
+}
+.dot-separator {
+  font-weight: bold;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+}
+/* TAGS DIV TAGS DIV TAGS DIV TAGS DIV TAGS DIV */
+.tags-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 2.5rem;
+  flex-wrap: wrap;
+  max-width: 50%;
+}
+
+.tag {
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: max-content;
+}
